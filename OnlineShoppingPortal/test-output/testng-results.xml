@@ -2,47 +2,38 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[[<test> --Default test Started the Execution]]]>
-    </line>
-    <line>
-      <![CDATA[[TestCase --removeProduct Started]]]>
-    </line>
-    <line>
-      <![CDATA[[TestCase --removeProduct Successfully Executed]]]>
+      <![CDATA[Product is Added To Cart !!!]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-06-05T19:25:39 IST" name="Default suite" finished-at="2025-06-05T19:26:20 IST" duration-ms="40273">
+  <suite started-at="2025-06-07T17:30:31 IST" name="Default suite" finished-at="2025-06-07T17:30:53 IST" duration-ms="22476">
     <groups>
     </groups>
-    <test started-at="2025-06-05T19:25:39 IST" name="Default test" finished-at="2025-06-05T19:26:20 IST" duration-ms="40273">
-      <class name="testPackage.RemoveProductFromCartTest">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testPackage.RemoveProductFromCartTest@279fedbd]" started-at="2025-06-05T19:25:39 IST" name="browserSetup" finished-at="2025-06-05T19:26:00 IST" duration-ms="20609" status="PASS">
+    <test started-at="2025-06-07T17:30:31 IST" name="Default test" finished-at="2025-06-07T17:30:53 IST" duration-ms="22476">
+      <class name="testPackage.AddToCartTest">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testPackage.AddToCartTest@24aed80c]" started-at="2025-06-07T17:30:31 IST" name="browserSetup" finished-at="2025-06-07T17:30:42 IST" duration-ms="11075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="login()[pri:0, instance:testPackage.RemoveProductFromCartTest@279fedbd]" started-at="2025-06-05T19:26:00 IST" name="login" finished-at="2025-06-05T19:26:08 IST" duration-ms="7503" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:testPackage.AddToCartTest@24aed80c]" started-at="2025-06-07T17:30:42 IST" name="login" finished-at="2025-06-07T17:30:48 IST" duration-ms="5856" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="removeProduct()[pri:0, instance:testPackage.RemoveProductFromCartTest@279fedbd]" started-at="2025-06-05T19:26:08 IST" name="removeProduct" finished-at="2025-06-05T19:26:18 IST" duration-ms="9988" status="PASS">
+        <test-method signature="addToCartTC_001()[pri:0, instance:testPackage.AddToCartTest@24aed80c]" started-at="2025-06-07T17:30:48 IST" name="addToCartTC_001" finished-at="2025-06-07T17:30:51 IST" duration-ms="3827" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[TestCase --removeProduct Started]]]>
-            </line>
-            <line>
-              <![CDATA[[TestCase --removeProduct Successfully Executed]]]>
+              <![CDATA[Product is Added To Cart !!!]]>
             </line>
           </reporter-output>
-        </test-method> <!-- removeProduct -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testPackage.RemoveProductFromCartTest@279fedbd]" started-at="2025-06-05T19:26:18 IST" name="logout" finished-at="2025-06-05T19:26:19 IST" duration-ms="1634" status="PASS">
+        </test-method> <!-- addToCartTC_001 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testPackage.AddToCartTest@24aed80c]" started-at="2025-06-07T17:30:51 IST" name="logout" finished-at="2025-06-07T17:30:53 IST" duration-ms="1106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:testPackage.RemoveProductFromCartTest@279fedbd]" started-at="2025-06-05T19:26:19 IST" name="browserTearDown" finished-at="2025-06-05T19:26:20 IST" duration-ms="387" status="PASS">
+        <test-method is-config="true" signature="browserTearDown()[pri:0, instance:testPackage.AddToCartTest@24aed80c]" started-at="2025-06-07T17:30:53 IST" name="browserTearDown" finished-at="2025-06-07T17:30:53 IST" duration-ms="491" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserTearDown -->
-      </class> <!-- testPackage.RemoveProductFromCartTest -->
+      </class> <!-- testPackage.AddToCartTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
